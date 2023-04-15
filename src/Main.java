@@ -23,7 +23,7 @@ public class Main  {  //Main class to Run the program
 
         Scanner sc=new Scanner(System.in);
         System.out.println("Welcome to Online Voting System");
-        System.out.print("you are admin Or user Enter(1/2/3) for  Admin:1 ,User:2 ,Result:3 :");
+        System.out.print("you are admin Or user Enter(1/2/3) for  Admin:1 ,Voter:2 ,Result:3 :");
         try {
             int ch = sc.nextInt();
             switch (ch) {
